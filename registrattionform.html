@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style2.css" />
+  </head>
+
+  <body>
+    <section>
+      <form action="#">
+        <h1><u>Student Registration form</u></h1>
+
+        <table>
+          <tr>
+            <td><label for="fname">Full Name</label></td>
+            <td>:</td>
+            <td><input type="text" id="fname" placeholder="Write your full name here" /></td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td><label for="email">E-Mail</label></td>
+            <td>:</td>
+            <td><input type="email" id="email" placeholder="abc@gmail.com" /></td>
+          </tr>
+
+          <tr></tr>
+          <tr>
+            <td><label for="pw">PassWord</label></td>
+            <td>:</td>
+            <td><input type="password" id="pw" placeholder="*********" /></td>
+          </tr>
+
+          <tr></tr>
+          <tr>
+            <td><label for="address">Address</label></td>
+            <td>:</td>
+            <td><input type="text" id="address" /></td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td><label for="ph" required>Phone No.</label></td>
+            <td>:</td>
+            <td><input type="number" id="ph" placeholder="0171......." /></td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td><label for="dob">Date of Birth</label></td>
+            <td>:</td>
+            <td><input type="date" id="dob" /></td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td><label for="city">City</label></td>
+            <td>:</td>
+            <td>
+              <select id="city">
+                <option value="1">Dhaka</option>
+                <option value="2">Khulna</option>
+                <option value="3">Rajshahi</option>
+                <option value="4">Chittagong</option>
+              </select>
+            </td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td><label for="postcode">Zipcode</label></td>
+            <td>:</td>
+            <td><input type="number" id="postcode" placeholder="1215" /></td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td><label for="gndr">Gender</label></td>
+            <td>:</td>
+            <td>
+              <input type="radio" id="gndr" name="Gender" />Male<input type="radio" name="Gender" />Female<input
+                type="radio"
+                id="others"
+                name="Gender"
+              />Others
+            </td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td><label for="service">Select Course</label></td>
+            <td>:</td>
+            <td>
+              <input type="checkbox" id="service" name="course" />HTML <input type="checkbox" name="course" />CSS
+              <input type="checkbox" name="course" />Web Design <input type="checkbox" name="course" />Web Development
+              <input type="checkbox" name="course" />WordPress
+            </td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td><label for="fl">Attach File</label></td>
+            <td>:</td>
+            <td><input type="file" id="fl" accept="image/*" /></td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td><label for="txtarea">Write Something</label></td>
+            <td>:</td>
+            <td><textarea id="txtarea" cols="63" rows="5"></textarea></td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td></td>
+            <td></td>
+
+            <td>
+              <a href="#"><input type="button" value="Sign Up" /></a>
+              &nbsp;
+              <input type="button" value="Reset All" />
+              &nbsp;
+              <a href="index.html"><input type="button" value="Go Back" /></a>
+            </td>
+          </tr>
+          <tr></tr>
+        </table>
+      </form>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+*{margin:0;
+padding:0;
+h2:0px;
+}
+
+form{
+    width="50%"; 
+    height="30%";
+    align: center;
+    margin: 1% 30%;
+    padding: 5% 7% 7% 7%; 
+    background-color: rgb(155, 201, 240);
+    color: rgb(7, 56, 63);
+}
+h2{
+margin:10% 25%;
+}
+#username{
+    padding-left: 20px;
+}
+.txt{
+    border:1px solid rgb(71, 140, 151);
+    background-color: transparent;
+    padding: 1.5%;
+    width:75%;
+}
+
+.btn
+{   width:100%;
+    margin:0auto;
+    padding:2% 25%;
+    border:1px solid  powderblue;
+    background-color:rgb(7, 38, 63);
+    color:powderblue;
+}
+.btn:hover{
+    background-color:transparent;
+    border: 1px solid rgb(7, 38, 63);
+    color: rgb(7, 38, 63);
+}
+ p {
+    margin:1% 20%;
+    font-size:16px;
+}
+
+p>a{
+    /* margin:0% 10% 25% 15%; */
+    
+    margin-left: 15%;
+    margin-bottom: 15%;
+    }

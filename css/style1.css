@@ -1,0 +1,45 @@
+*{margin:0;
+padding:0;
+h:0px;
+}
+form{ 
+    width="50%"; 
+    height="30%";
+    align: center;
+    margin: 1% 30%;
+    padding: 5%; 
+    background-color: rgb(155, 205, 246);
+    color: rgb(7, 38, 63);
+}
+h{
+margin-left:20%;
+}
+.txt{
+    border:1px solid rgb(71, 140, 151);
+    background-color: transparent;
+    padding: 1.5%;
+    width:83%;
+}
+
+.btn
+{   width:49%;
+    margin:0auto;
+    padding:2%;
+    border:1px solid  powderblue;
+    background-color:rgb(7, 38, 63);
+    color:powderblue;
+}
+.btn:hover{
+    background-color:transparent;
+    border: 1px solid rgb(7, 38, 63);
+    color: rgb(7, 38, 63);
+}
+ p {
+    text-align: justify;
+    margin:5% 0%;
+    font-size:16px;
+}
+
+p>a{    
+    margin-left: 10px;
+   }
